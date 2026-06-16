@@ -1,0 +1,5 @@
+# Ignore the files in the "files" directory, as they are used for patching and should not be tracked by git
+files/
+
+# Ignore also the .ainx files
+*.ainx
