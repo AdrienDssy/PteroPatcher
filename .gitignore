@@ -1,5 +1,11 @@
 # Ignore the files in the "files" directory, as they are used for patching and should not be tracked by git
-files/
+files/*
 
 # Ignore also the .ainx files
 *.ainx
+
+# Ignore the custom files used for patching
+*.patch
+
+# Ignore the custom directory, as it contains generated files
+custom/*
